@@ -1,0 +1,103 @@
+/* .block {
+  width: 1200px;
+  height: 100px;
+  background-color: brown;
+} */
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* фиксированная верстка */
+.block__item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+/* резиновая верстка */
+/* % - задают значение относительно родителя */
+/* .block__item {
+  width: 50%;
+  height: 10px;
+  background-color: chartreuse;
+} */
+/* Адаптивная верстка */
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: darkblue;
+  color: white;
+  margin: 15px;
+} */
+@media all and (max-width: 400px) {
+  .first {
+    display: none;
+  }
+  .second {
+    display: none;
+  }
+  .third {
+    display: none;
+  }
+  .fourth {
+    display: block;
+    background-color: khaki;
+  }
+}
+/* em, rem */
+.parent {
+  font-size: 15px;
+}
+/* .child {
+  font-size: 2em;
+} */
+/* резиновая верстка %, vh, vw, vmin, vmax, */
+/* vh, viewport height - % щт высоты щкна браузера (мшуцзщке) */
+/* vw viewport width - % щт шир ны окна браузера (viewport) */
+/* vmin - размер в % от меньшей размерности окна браузера (viewport) */
+/* vmax - размер в %  */
+.container1 {
+  width: 100%;
+  border: 2px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.block1 {
+  width: 10%;
+  height: 100vmax;
+  background-color: cadetblue;
+}
+.block2 {
+  width: 50vmin;
+  height: 100%;
+  background-color: blue;
+}
+.block3 {
+  width: 45%;
+  background-color: brown;
+  height: 100%;
+}
+.container {
+  max-width: 1000px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  min-width: 200px;
+  height: 200px;
+}
+.block:nth-child(even) {
+  background-color: yellow;
+}
+.block:nth-child(odd) {
+  background-color: green;
+}
+@media all and (max-width: 600px) {
+  .block {
+    color: white;
+    /* min-width: 10%; */
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "title": "IPhone",
+      "description": "lalalalalala",
+      "price": 800,
+      "id": 1,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-12-purple-2021?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1635202738000"
+    },
+    {
+      "title": "d",
+      "price": "d",
+      "description": "d",
+      "image": "d",
+      "id": 2
+    },
+    {
+      "title": "s",
+      "price": "s",
+      "description": "s",
+      "image": "s",
+      "id": 3
+    },
+    {
+      "title": "macbook",
+      "price": "1000",
+      "description": "super mac",
+      "image": "https://m.media-amazon.com/images/I/711jgF2LHPL._AC_SY355_.jpg",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "name": "Samat",
+      "img": "https://i.guim.co.uk/img/media/a475627a087a42fe76e416293f2e334ab7710c4d/0_112_3000_1800/master/3000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e920fbd425c0fa804f78cd4e9a58a007",
+      "created_at": 1670995857201,
+      "id": 3
+    },
+    {
+      "name": "Aidar",
+      "img": "https://i.pinimg.com/564x/04/d3/c2/04d3c28b162f506682fd3d8e3cecaf68.jpg",
+      "created_at": 1670995919085,
+      "id": 4
+    },
+    {
+      "name": "ghvg",
+      "img": "gcc",
+      "created_at": 1671014140049,
+      "id": 5
+    }
+  ]
+}
